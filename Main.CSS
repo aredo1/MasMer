@@ -9,7 +9,7 @@
   font-size: 20px;
   top: 5px;
   left: 30px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
 }
 
 .DiscountImg {
@@ -105,5 +105,25 @@ td {
   .MasMer {
     left: 30px;
     max-height: 100px;
+  }
+}
+
+@media (max-width: 650px) {
+  .Discount {
+    left: 460px;
+  }
+  .DiscountImg {
+    max-width: 200px;
+  }
+  .MasMer {
+    left: 200px;
+    max-height: 50px;
+  }
+  .Contact {
+    font-size: 12px;
+  }
+  table {
+    margin-left: 100px;
+    font-size: 12px;
   }
 }
