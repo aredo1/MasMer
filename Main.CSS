@@ -75,7 +75,7 @@ td {
   }
   .MasMer {
     left: 400px;
-    max-height: 120px;
+    max-height: 200px;
   }
 }
 
@@ -104,6 +104,6 @@ td {
   }
   .MasMer {
     left: 30px;
-    max-height: 70px;
+    max-height: 100px;
   }
 }
