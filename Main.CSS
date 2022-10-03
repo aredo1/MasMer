@@ -9,7 +9,7 @@
   font-size: 20px;
   top: 5px;
   left: 30px;
-  color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .DiscountImg {
@@ -75,7 +75,7 @@ td {
   }
   .MasMer {
     left: 400px;
-    max-height: 200px;
+    max-height: 120px;
   }
 }
 
