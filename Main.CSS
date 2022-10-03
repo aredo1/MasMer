@@ -1,0 +1,109 @@
+.MasMer {
+  position: relative;
+  left: 400px;
+  max-height: 120px;
+}
+
+.Contact {
+  position: absolute;
+  font-size: 20px;
+  top: 5px;
+  left: 30px;
+  color: rgb(255, 0, 0);
+}
+
+.DiscountImg {
+  max-width: 280px;
+  margin-top: -20px;
+}
+
+.Discount {
+  position: absolute;
+  left: 950px;
+  top: 0px;
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+}
+
+table {
+  border: 1px solid grey;
+  background-color: white;
+  margin-left: 200px;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+  border: 1px solid grey;
+  color: rgb(255, 0, 0);
+}
+/* границы ячеек тела таблицы */
+td {
+  border: 1px solid grey;
+  padding: 5px 7px;
+}
+
+@media (max-width: 2100px) {
+  .Discount {
+    left: 1050px;
+  }
+  .DiscountImg {
+    max-width: 270px;
+  }
+  .MasMer {
+    left: 400px;
+    max-height: 120px;
+  }
+}
+@media (max-width: 1870px) {
+  .Discount {
+    left: 1050px;
+  }
+  .DiscountImg {
+    max-width: 270px;
+  }
+  .MasMer {
+    left: 400px;
+    max-height: 120px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .Discount {
+    left: 1030px;
+  }
+  .DiscountImg {
+    max-width: 270px;
+  }
+  .MasMer {
+    left: 400px;
+    max-height: 120px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .Discount {
+    left: 800px;
+  }
+  .DiscountImg {
+    max-width: 200px;
+  }
+  .MasMer {
+    left: 300px;
+    max-height: 110px;
+  }
+  table {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Discount {
+    left: 580px;
+  }
+  .DiscountImg {
+    max-width: 200px;
+  }
+  .MasMer {
+    left: 30px;
+    max-height: 100px;
+  }
+}
