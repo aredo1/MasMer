@@ -1,3 +1,7 @@
+body {
+  background-image: url(sots.png);
+  background-size: contain;
+}
 .MasMer {
   position: relative;
   left: 400px;
@@ -5,24 +9,38 @@
 }
 
 .Contact {
-  position: absolute;
+  /*position: absolute;
   font-size: 20px;
   top: 5px;
   left: 30px;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);*/
+  position: absolute;
+  top: 12px;
+  left: 30px;
 }
-
-.DiscountImg {
+.ContactE {
+  max-width: 280px;
+}
+.ContactA {
+  margin-top: -23px;
+  max-width: 280px;
+}
+.DiscountImg1 {
   max-width: 280px;
   margin-top: -20px;
 }
-
+.DiscountImg2 {
+  max-width: 280px;
+  margin-top: -20px;
+}
 .Discount {
   position: absolute;
   left: 950px;
   top: 0px;
   font-size: 20px;
+  font-weight: bold;
   color: rgb(255, 0, 0);
+  background-color: white;
 }
 
 table {
@@ -112,6 +130,7 @@ td {
   .Discount {
     left: 310px;
     font-size: 10px;
+    top: -8px;
   }
   .Discount2 {
     left: 310px;
@@ -127,17 +146,24 @@ td {
   }
   .MasMer {
     top: 25px;
-    left: 160px;
+    left: 150px;
     max-height: 50px;
   }
   .Contact {
     top: 25px;
     font-size: 12px;
-    left: 10px;
+    left: 0px;
   }
   table {
     margin-top: 55px;
     margin-left: 0px;
     font-size: 10px;
+  }
+  .ContactE {
+    max-width: 150px;
+  }
+  .ContactA {
+    margin-top: -15px;
+    max-width: 150px;
   }
 }
