@@ -1,169 +1,142 @@
 body {
-  background-image: url(sots.png);
-  background-size: contain;
+  background-image: url(Back.png);
+  background-size: cover;
 }
-.MasMer {
-  position: relative;
-  left: 400px;
-  max-height: 120px;
+
+.container {
+  padding: 0 15px;
+}
+
+.Logo {
+  text-align: center;
+}
+
+.LogoIMG {
+  max-width: 400px;
 }
 
 .Contact {
-  /*position: absolute;
-  font-size: 20px;
-  top: 5px;
-  left: 30px;
-  color: rgb(255, 0, 0);*/
   position: absolute;
-  top: 12px;
+  top: 15px;
   left: 30px;
 }
-.ContactE {
-  max-width: 280px;
+
+.ContactIMG {
+  max-width: 350px;
 }
-.ContactA {
-  margin-top: -23px;
-  max-width: 280px;
-}
-.DiscountImg1 {
-  max-width: 280px;
-  margin-top: -20px;
-}
-.DiscountImg2 {
-  max-width: 280px;
-  margin-top: -20px;
-}
+
 .Discount {
   position: absolute;
-  left: 950px;
-  top: 0px;
+  left: 1010px;
+  top: 10px;
   font-size: 20px;
   font-weight: bold;
   color: rgb(255, 0, 0);
   background-color: white;
 }
 
+.DiscountIMG1 {
+  max-width: 300px;
+}
+
+.DiscountIMG2 {
+  max-width: 300px;
+}
+
 table {
-  border: 1px solid grey;
-  background-color: white;
-  margin-left: 200px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 13px;
+  border-collapse: collapse;
+  text-align: center;
 }
-
-th {
-  border: 1px solid grey;
-  color: rgb(255, 0, 0);
-}
-
+th,
 td {
-  border: 1px solid grey;
-  padding: 5px 7px;
+  /*background: #AFCDE7;
+  color: white;*/
+  padding: 10px 8px;
+}
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+td {
+  background: #d8e6f3;
+}
+th {
+  background: #afcde7;
+  color: white;
+}
+th:first-child,
+td:first-child {
+  text-align: left;
 }
 
-@media (max-width: 2100px) {
-  .Discount {
-    left: 1050px;
-  }
-  .DiscountImg {
-    max-width: 270px;
-  }
-  .MasMer {
-    left: 400px;
-    max-height: 120px;
-  }
+#table1 {
+  position: absolute;
+  left: 229px;
 }
-@media (max-width: 1870px) {
-  .Discount {
-    left: 1050px;
-  }
-  .DiscountImg {
-    max-width: 270px;
-  }
-  .MasMer {
-    left: 400px;
-    max-height: 120px;
-  }
+#table2 {
+  position: absolute;
+  left: 492px;
+}
+#table3 {
+  position: absolute;
+  left: 743px;
 }
 
-@media (max-width: 1400px) {
-  .Discount {
-    left: 1030px;
-  }
-  .DiscountImg {
-    max-width: 270px;
-  }
-  .MasMer {
-    left: 460px;
-    max-height: 120px;
-  }
-}
-
-@media (max-width: 1100px) {
-  .Discount {
-    left: 800px;
-  }
-  .DiscountImg {
-    max-width: 200px;
-  }
-  .MasMer {
-    left: 300px;
-    max-height: 110px;
-  }
-  table {
-    margin-left: 0px;
-  }
-}
-
-@media (max-width: 800px) {
-  .Discount {
-    left: 580px;
-  }
-  .DiscountImg {
-    max-width: 200px;
-  }
-  .MasMer {
-    left: 30px;
-    max-height: 100px;
-  }
-}
-
-@media (max-width: 650px) {
-  .Discount {
-    left: 310px;
-    font-size: 10px;
-    top: -8px;
-  }
-  .Discount2 {
-    left: 310px;
-    font-size: 0px;
-  }
-  .DiscountImg1 {
-    margin-top: -10px;
-    max-width: 90px;
-  }
-  .DiscountImg2 {
-    margin-top: -10px;
-    max-width: 0px;
-  }
-  .MasMer {
-    top: 25px;
-    left: 150px;
-    max-height: 50px;
+@media (max-width: 500px) {
+  .LogoIMG {
+    max-width: 330px;
+    margin-top: 20px;
   }
   .Contact {
-    top: 25px;
-    font-size: 12px;
-    left: 0px;
+    top: 110px;
+    left: 22px;
+  }
+
+  .ContactIMG {
+    max-width: 370px;
+  }
+
+  .Discount {
+    left: 22px;
+    top: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    background-color: white;
+  }
+
+  .DiscountIMG1 {
+    max-width: 365px;
+  }
+
+  .DiscountIMG2 {
+    max-width: 0px;
   }
   table {
-    margin-top: 55px;
-    margin-left: 0px;
-    font-size: 10px;
+    font-size: 14px;
   }
-  .ContactE {
-    max-width: 150px;
+  th,
+  td {
+    padding: 10px 30.5px;
   }
-  .ContactA {
-    margin-top: -15px;
-    max-width: 150px;
+
+  #table1 {
+    position: absolute;
+    top: 390px;
+    left: 22px;
+  }
+  #table2 {
+    position: absolute;
+    top: 1485px;
+    left: 27px;
+  }
+  #table3 {
+    position: absolute;
+    top: 1993px;
+    left: 22px;
   }
 }
